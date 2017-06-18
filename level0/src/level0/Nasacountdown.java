@@ -16,11 +16,11 @@ public class Nasacountdown {
 		// 4. countdown from user's starting point
 		
 		// 1. countdown from 10 to 0
-        for(; c>-1;c=c-2 ){
+        for(; c>-1;c=c-1 ){
         	speak(Integer.toString(c));
         }
 		// 5  when the counting is done, print "blastoff!"
-		speak("bbbbbbbbbbbbbbblllllllllllllllllllllaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssttttttttttttttttttttttttttttttttoooooooooooooooooooooooooooooooooofffffffffffffffffffffffffffffffffffffffffff");
+		speak("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbblllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooofffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
 	}
 }
 static void speak(String words) {
