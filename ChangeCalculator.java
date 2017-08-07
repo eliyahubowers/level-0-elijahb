@@ -26,8 +26,7 @@ package level0;
 	 
 double money = q*.25 + n*.05 + d*.10 + p*.01 ; 
 		
-System.out.println("you have $" + money);
-	 JOptionPane.showMessageDialog(null, "You have " + money);
+	 System.out.println("you have $" + money);
 		}
 	}
 	 

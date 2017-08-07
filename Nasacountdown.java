@@ -29,11 +29,5 @@ static void speak(String words) {
    	 } catch (Exception e) {
    		 e.printStackTrace();
    	 }
-  }
-
-	
-	
-	
-	
-	
+  }	
 }

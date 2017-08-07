@@ -13,29 +13,16 @@ Maker.moveTo(10, 600);
 Maker.setSpeed(10);
 for (int i = 0; i < 20; i++) {
 height = randomMaker.nextInt(401)+100;	
-if(height == 500){
-Maker.setRandomPenColor();	
-Maker.move(height);
-Maker.turn(30);
-Maker.move(40);
-Maker.turn(-60);
-Maker.move(40);
-Maker.turn(180);
-Maker.move(40);
-Maker.turn(-60);
-Maker.move(40);
-Maker.turn(30);
-Maker.move(height);
-}	
-else if(height > 350 && height < 500){
+if(height > 350){
 Maker.setRandomPenColor();
 Maker.move(height);
 Maker.turn(90);
 Maker.move(42);
 Maker.turn(90);
 Maker.move(height);
+Maker.turn(-90);
 }
-else if(height > 150 && height < 351){
+else if(height > 150 && height < 350){
 Maker.setRandomPenColor();
 Maker.move(height);
 Maker.turn(45);
@@ -44,6 +31,7 @@ Maker.turn(90);
 Maker.move(30);
 Maker.turn(45);
 Maker.move(height);
+Maker.turn(-90);
 }
 else{
 	Maker.setRandomPenColor();
@@ -53,11 +41,11 @@ else{
 	Maker.turn(120);
 	Maker.move(40);
 	Maker.turn(30);
-	Maker.move(height);	
+	Maker.move(height);
+	Maker.turn(-90);	
 }
 
 Maker.setPenColor(Color.green);
-Maker.turn(-90);
 Maker.move(30);
 Maker.turn(-90);
 }
