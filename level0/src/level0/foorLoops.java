@@ -37,8 +37,7 @@ public class foorLoops {
 			System.out.print("*");	
 			}	
 			System.out.println(" ");
-		}
-		
+		}	
 		
 	}
 }
