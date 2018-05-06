@@ -10,7 +10,7 @@ public class foorLoops {
 			}			
 		}
 		
-		System.out.println(" ");
+System.out.println(" ");
 		
 		for(int i = 1; i <= 9; i+=0) {
 			for(int e = 0; e <= 2; e++) {
@@ -20,7 +20,7 @@ public class foorLoops {
 			System.out.println("");
 		}
 		
-		System.out.println(" ");
+System.out.println(" ");
 		
 		for(int i = 1; i <= 100; i+=0) {
 			for(int e = 0; e <= 9; e++){
@@ -30,7 +30,7 @@ public class foorLoops {
 			System.out.println(" ");
 		}
 		
-		System.out.println(" ");
+System.out.println(" ");
 		
 		for(int i = 0; i <= 6; i++) {
 			for(int e = 1; e <= i; e++) {
